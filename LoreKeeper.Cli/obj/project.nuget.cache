@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "vOURjTXzyho=",
+  "success": true,
+  "projectFilePath": "D:\\proj\\LoreKeeper\\LoreKeeper.Cli\\LoreKeeper.Cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KakoChin\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\10.0.7\\microsoft.dotnet.ilcompiler.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.7\\microsoft.net.illink.tasks.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\10.0.7\\runtime.win-x64.microsoft.dotnet.ilcompiler.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.7\\microsoft.netcore.app.runtime.win-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.7\\microsoft.aspnetcore.app.runtime.win-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\microsoft.netcore.app.runtime.nativeaot.win-x64\\10.0.7\\microsoft.netcore.app.runtime.nativeaot.win-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\KakoChin\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\10.0.7\\runtime.win-x64.microsoft.dotnet.ilcompiler.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
