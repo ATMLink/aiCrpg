@@ -1,5 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+    <ItemGroup>
+      <ProjectReference Include="..\LoreKeeper.Domain\LoreKeeper.Domain.csproj" />
+      <ProjectReference Include="..\LoreKeeper.Abstractions\LoreKeeper.Abstractions.csproj" />
+      <ProjectReference Include="..\LoreKeeper.Knowledge\LoreKeeper.Knowledge.csproj" />
+      <ProjectReference Include="..\LoreKeeper.Llm\LoreKeeper.Llm.csproj" />
+    </ItemGroup>
+
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>

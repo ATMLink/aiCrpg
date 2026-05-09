@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoreKeeper.Runtime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c454fdf6975b9e9505eb79317ab094bc812ad6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b82d24dc617cc95d38a54524489c6aea7e3a312e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoreKeeper.Runtime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoreKeeper.Runtime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

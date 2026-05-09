@@ -1,0 +1,12 @@
+D:\proj\LoreKeeper\LoreKeeper.Domain\bin\Debug\net10.0\LoreKeeper.Domain.deps.json
+D:\proj\LoreKeeper\LoreKeeper.Domain\bin\Debug\net10.0\LoreKeeper.Domain.dll
+D:\proj\LoreKeeper\LoreKeeper.Domain\bin\Debug\net10.0\LoreKeeper.Domain.pdb
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.AssemblyInfoInputs.cache
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.AssemblyInfo.cs
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.csproj.CoreCompileInputs.cache
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.sourcelink.json
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.dll
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\refint\LoreKeeper.Domain.dll
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\LoreKeeper.Domain.pdb
+D:\proj\LoreKeeper\LoreKeeper.Domain\obj\Debug\net10.0\ref\LoreKeeper.Domain.dll

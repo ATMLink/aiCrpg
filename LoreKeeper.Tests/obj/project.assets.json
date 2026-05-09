@@ -393,6 +393,86 @@
         "build": {
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "LoreKeeper.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LoreKeeper.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoreKeeper.Abstractions.dll": {}
+        }
+      },
+      "LoreKeeper.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LoreKeeper.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoreKeeper.Domain.dll": {}
+        }
+      },
+      "LoreKeeper.Knowledge/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0",
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LoreKeeper.Knowledge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoreKeeper.Knowledge.dll": {}
+        }
+      },
+      "LoreKeeper.Llm/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LoreKeeper.Llm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoreKeeper.Llm.dll": {}
+        }
+      },
+      "LoreKeeper.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0",
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LoreKeeper.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoreKeeper.Persistence.dll": {}
+        }
+      },
+      "LoreKeeper.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0",
+          "LoreKeeper.Domain": "1.0.0",
+          "LoreKeeper.Knowledge": "1.0.0",
+          "LoreKeeper.Llm": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LoreKeeper.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoreKeeper.Runtime.dll": {}
+        }
       }
     }
   },
@@ -903,10 +983,45 @@
         "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "LoreKeeper.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../LoreKeeper.Abstractions/LoreKeeper.Abstractions.csproj",
+      "msbuildProject": "../LoreKeeper.Abstractions/LoreKeeper.Abstractions.csproj"
+    },
+    "LoreKeeper.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LoreKeeper.Domain/LoreKeeper.Domain.csproj",
+      "msbuildProject": "../LoreKeeper.Domain/LoreKeeper.Domain.csproj"
+    },
+    "LoreKeeper.Knowledge/1.0.0": {
+      "type": "project",
+      "path": "../LoreKeeper.Knowledge/LoreKeeper.Knowledge.csproj",
+      "msbuildProject": "../LoreKeeper.Knowledge/LoreKeeper.Knowledge.csproj"
+    },
+    "LoreKeeper.Llm/1.0.0": {
+      "type": "project",
+      "path": "../LoreKeeper.Llm/LoreKeeper.Llm.csproj",
+      "msbuildProject": "../LoreKeeper.Llm/LoreKeeper.Llm.csproj"
+    },
+    "LoreKeeper.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../LoreKeeper.Persistence/LoreKeeper.Persistence.csproj",
+      "msbuildProject": "../LoreKeeper.Persistence/LoreKeeper.Persistence.csproj"
+    },
+    "LoreKeeper.Runtime/1.0.0": {
+      "type": "project",
+      "path": "../LoreKeeper.Runtime/LoreKeeper.Runtime.csproj",
+      "msbuildProject": "../LoreKeeper.Runtime/LoreKeeper.Runtime.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "LoreKeeper.Abstractions >= 1.0.0",
+      "LoreKeeper.Domain >= 1.0.0",
+      "LoreKeeper.Knowledge >= 1.0.0",
+      "LoreKeeper.Persistence >= 1.0.0",
+      "LoreKeeper.Runtime >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -945,7 +1060,23 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\proj\\LoreKeeper\\LoreKeeper.Abstractions\\LoreKeeper.Abstractions.csproj": {
+              "projectPath": "D:\\proj\\LoreKeeper\\LoreKeeper.Abstractions\\LoreKeeper.Abstractions.csproj"
+            },
+            "D:\\proj\\LoreKeeper\\LoreKeeper.Domain\\LoreKeeper.Domain.csproj": {
+              "projectPath": "D:\\proj\\LoreKeeper\\LoreKeeper.Domain\\LoreKeeper.Domain.csproj"
+            },
+            "D:\\proj\\LoreKeeper\\LoreKeeper.Knowledge\\LoreKeeper.Knowledge.csproj": {
+              "projectPath": "D:\\proj\\LoreKeeper\\LoreKeeper.Knowledge\\LoreKeeper.Knowledge.csproj"
+            },
+            "D:\\proj\\LoreKeeper\\LoreKeeper.Persistence\\LoreKeeper.Persistence.csproj": {
+              "projectPath": "D:\\proj\\LoreKeeper\\LoreKeeper.Persistence\\LoreKeeper.Persistence.csproj"
+            },
+            "D:\\proj\\LoreKeeper\\LoreKeeper.Runtime\\LoreKeeper.Runtime.csproj": {
+              "projectPath": "D:\\proj\\LoreKeeper\\LoreKeeper.Runtime\\LoreKeeper.Runtime.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

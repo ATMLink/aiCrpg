@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "LoreKeeper.Runtime/1.0.0": {
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0",
+          "LoreKeeper.Domain": "1.0.0",
+          "LoreKeeper.Knowledge": "1.0.0",
+          "LoreKeeper.Llm": "1.0.0"
+        },
+        "runtime": {
+          "LoreKeeper.Runtime.dll": {}
+        }
+      },
+      "LoreKeeper.Abstractions/1.0.0": {
+        "dependencies": {
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LoreKeeper.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LoreKeeper.Domain/1.0.0": {
+        "runtime": {
+          "LoreKeeper.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LoreKeeper.Knowledge/1.0.0": {
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0",
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LoreKeeper.Knowledge.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LoreKeeper.Llm/1.0.0": {
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "LoreKeeper.Llm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoreKeeper.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoreKeeper.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoreKeeper.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoreKeeper.Knowledge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoreKeeper.Llm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

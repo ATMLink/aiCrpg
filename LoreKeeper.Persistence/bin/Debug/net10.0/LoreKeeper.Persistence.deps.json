@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "LoreKeeper.Persistence/1.0.0": {
+        "dependencies": {
+          "LoreKeeper.Abstractions": "1.0.0",
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LoreKeeper.Persistence.dll": {}
+        }
+      },
+      "LoreKeeper.Abstractions/1.0.0": {
+        "dependencies": {
+          "LoreKeeper.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LoreKeeper.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LoreKeeper.Domain/1.0.0": {
+        "runtime": {
+          "LoreKeeper.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoreKeeper.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoreKeeper.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoreKeeper.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
